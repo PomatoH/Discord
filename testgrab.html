@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- Web title -->
+    <title>Discord</title>
+
+    <!-- Web Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web SEO -->
+    <meta name="title" content="Discord">
+    <meta name="description" content="Discord Login Page - Vins 2106">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mysite.com/">
+    <meta property="og:title" content="Discord">
+    <meta property="og:description" content="Discord Login Page - Vins 2106">
+    <meta property="og:image" content="./img/logo.png">
+
+    <meta property="twitter:url" content="https://mysite.com/">
+    <meta property="twitter:title" content="Discord">
+    <meta property="twitter:description" content="Discord Login Page - Vins 2106">
+    <meta property="twitter:image" content="./img/logo.png">
+
+    <!-- Web Style -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+    <div id="app-mount" class="appMount-3lHmkl">
+        <svg viewBox="0 0 1 1" aria-hidden="true" style="position: absolute; pointer-events: none; top: -1px; left: -1px; width: 1px; height: 1px;">
+            <!-- SVG masks -->
+        </svg>
+        <div style="position: fixed; opacity: 0; pointer-events: none;"></div>
+        <div class="app-1q1i1E">
+            <div class="wrapper-6URcxg">
+                <div style="">
+                    <div>
+                        <form class="authBoxExpanded-2jqaBe authBox-hW6HRx theme-dark">
+                            <div class="centeringWrapper-2Rs1dR">
+                                <div class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignCenter-1dQNNs noWrap-3jynv6" style="flex: 1 1 auto;">
+                                    <div class="mainLoginContainer-1ddwnR">
+                                        <h3 class="title-jXR8lp marginBottom8-AtZOdT fontDisplay-1dagSA base-1x0h_U size24-RIRrxO">Welcome back!</h3>
+                                        <div class="colorHeaderSecondary-3Sp3Ft size16-1P40sf">We're so excited to see you again!</div>
+                                        <div class="block-egJnc0 marginTop20-3TxNs6">
+                                            <div class="marginBottom20-32qID7">
+                                                <h5 class="colorStandard-2KCXvj size14-e6ZScH h5-18_1nd title-3sZWYQ defaultMarginh5-2mL-bP">Email or Phone Number</h5>
+                                                <div class="input-cIJ7To input-1CjGeR">
+                                                    <div class="outerContainer-2pDY4c hidden-2l9u-8">
+                                                        <div class="container-1uOKxa" style="width: 0px;">
+                                                            <div class="innerContainer-20_g0H">
+                                                                <div class="countryCode-2YakYv" aria-controls="popout_54" aria-expanded="false" role="button" tabindex="0">ID +62</div>
+                                                                <div class="separator-39gxf1"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputWrapper-31_8H8 inputWrapper-3aw2Sf">
+                                                        <input class="inputDefault-_djjkz input-cIJ7To inputField-4g7rSQ" name="email" type="text" placeholder="" aria-label="Email or Phone Number" autocomplete="off" maxlength="999" spellcheck="false" value="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h5 class="colorStandard-2KCXvj size14-e6ZScH h5-18_1nd title-3sZWYQ defaultMarginh5-2mL-bP">Password</h5>
+                                                <div class="inputWrapper-31_8H8">
+                                                    <input class="inputDefault-_djjkz input-cIJ7To" name="password" type="password" placeholder="" aria-label="Password" autocomplete="current-password" maxlength="999" value="">
+                                                </div>
+                                                <div class="marginTop8-2hSYkd">
+                                                    <label class="checkbox-1wQec4" for="checkbox-3KaDxO">
+                                                        <input id="checkbox-3KaDxO" type="checkbox" class="inputDefault-_djjkz">
+                                                        <div class="checkboxCircle-3ygpPz"></div>
+                                                        <span class="checkboxLabel-1enyZm">Remember Me</span>
+                                                    </label>
+                                                    <div class="forgot-2LcutN">Forgot your password?</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="button-1MhjyH button-38aScr lookFilled-1Gx00P colorPrimary-3b3xI6 sizeLarge-1vSeWK grow-25YQ8u" type="submit" style="margin-top: 20px;">
+                                            <div class="contents-4L4hQM">Login</div>
+                                        </button>
+                                        <div class="block-egJnc0 marginTop20-3TxNs6">
+                                            <div class="tagline-3TG4g6">Need an account?</div>
+                                            <a href="/register" class="link-3gmu8j" rel="noopener noreferrer" target="_blank">
+                                                <div class="label-2P9dt6">Register</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Your JavaScript code goes here -->
+    <script>
+        // Add event listener to the login form
+        document.querySelector('form').addEventListener('submit', function(event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+
+            // Get the values from the email and password fields
+            var email = document.querySelector('input[name="email"]').value;
+            var password = document.querySelector('input[name="password"]').value;
+
+            // Perform client-side validation if needed
+
+            // Simulate login process
+            // For demonstration purposes, we will simply log the email and password
+            console.log('Email:', email);
+            console.log('Password:', password);
+
+            // After processing, you can redirect the user or perform any other action
+        });
+    </script>
+</body>
+</html>
